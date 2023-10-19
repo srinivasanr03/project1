@@ -6,12 +6,12 @@ const DownloadApp = () => {
     <section className="download-app">
       <div className="download-app-container container">
         <img
-          src="https://d8it4huxumps7.cloudfront.net/uploads/images/63db3ac0bfbd4_download_app_new.png?d=2360x912"
-          alt="download app"
+          src="https://images.squarespace-cdn.com/content/v1/5e6542d2ae16460bb741a9eb/1603318636443-A846ACUKNYUBA0RPLJ94/marvin-meyer-SYTO3xs06fU-unsplash.jpg"
+          alt="banner"
         />
-        <div className="download-app-links">
+        {/* <div className="download-app-links">
           <a
-            href="https://apps.apple.com/in/app/dare2compete/id1601170365"
+            // href="https://apps.apple.com/in/app/dare2compete/id1601170365"
             className="app-store"
             target="_blank"
             rel="noreferrer"
@@ -31,8 +31,8 @@ const DownloadApp = () => {
               src="	https://d8it4huxumps7.cloudfront.net/uploads/images/63db3b4dace41_play_store.png?d=368x114"
               alt="google play"
             />
-          </a>
-        </div>
+          </a> */}
+        {/* </div> */}
       </div>
     </section>
   );

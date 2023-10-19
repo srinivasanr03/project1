@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 import logo from '../assets/HireXzo_Solutions_LLP_No_BG.png'
 import Signup from "../pages/signup/Signup"
 import { Outlet, Link } from "react-router-dom";
-const Navbar = () => {
+const Navbar = ({ openHover }) => {
   const [isSignupOpen, setSignupOpen] = useState(false);
 
     const openSignup = () => {
@@ -37,7 +37,7 @@ const Navbar = () => {
           <div className="nav-left">
             <div className="nav-tabs">
               <div className="learn-tab">
-                <NavLink to={"/courses"}>
+              <NavLink to="/Courses-list" onClick={openHover}>
                   {/* <span className="tab-icon"></span> */}
                   <span className="tab-name">Courses</span>
                 </NavLink>
@@ -45,7 +45,7 @@ const Navbar = () => {
               <div className="practice-tab">
                 <NavLink to={"/practice"}>
                   {/* <span className="tab-icon"></span> */}
-                  <span className="tab-name">practice</span>
+                  <span className="tab-name">Practice</span>
                 </NavLink>
               </div>
               
@@ -58,7 +58,7 @@ const Navbar = () => {
               <div className="jobs-tab">
                 <NavLink to={"/job-portal"}>
                   {/* <span className="tab-icon"></span> */}
-                  <span className="tab-name">jobs</span>
+                  <span className="tab-name">Jobs</span>
                 </NavLink>
               </div>
               <div className="compete-tab">

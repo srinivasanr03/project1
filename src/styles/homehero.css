@@ -4,7 +4,7 @@
   padding: 6.5rem 0;
   position: relative;
   background: linear-gradient(to top right, #4BB3FF, #4CFCFF, #00E395);
-  height: 500px;
+  height: 627px;
 }
 
 .home-hero-container {
@@ -22,33 +22,41 @@
   font-weight: 400;
   font-size: 30px;
   position: relative;
-  margin-bottom: 44px;
+  margin-bottom: 40px;
 }
 
 
 
 .home-hero-left h1 strong {
-  font-weight: 700;
-  font-size: 40px;
+  font-weight: 1000;
+  font-size: 65px;
+  opacity: 80%;
 }
 
 .home-hero-left p {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 40px;
+  opacity: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
 }
 
 .home-hero-right-images {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.2rem;
-  width: 550px;
+  /* justify-content: center; */
+  gap: 5rem;
+  width: 60%;
 }
 
-.home-hero-image {
-  width: 30%;
+.home-hero-image{
+  width: 140%;
+  display: flex;
+  align-items: center;
   position: relative;
-  transition: all 0.3s linear;
+  transition: all 0.s1 linear;
+  animation: name duration timing-function delay iteration-count direction fill-mode;
 }
 
 .home-hero-image:hover {
@@ -56,6 +64,7 @@
 }
 
 .home-hero-image span {
+  padding-bottom: 300px;
   position: absolute;
   top: 20px;
   left: 20px;
@@ -65,29 +74,6 @@
   text-transform: capitalize;
 }
 
-.home-hero-image:nth-child(2) {
-  color: #562f95 !important;
-}
-
-.home-hero-image:nth-child(3) {
-  color: #685200 !important;
-}
-
-.home-hero-image:nth-child(4) {
-  color: #08678f !important;
-}
-
-.home-hero-image:nth-child(5) {
-  color: #4c3b9e !important;
-}
-
-.home-hero-image:nth-child(6) {
-  color: #a74c02 !important;
-}
-
-.home-hero-image img {
-  width: 100%;
-}
 
 @media (min-width: 1201px) {
   .home-hero:before {

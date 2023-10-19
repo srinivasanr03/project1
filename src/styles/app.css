@@ -3,6 +3,7 @@
 :root {
   --primary-color: black;
   --secondary-color: #4BB3FF;
+  
 }
 
 * {
@@ -48,7 +49,9 @@ input:focus {
 /* Add this CSS to your stylesheet */
 
 
-
+.Home{
+  background: linear-gradient(to top right, #4BB3FF, #4CFCFF, #00E395);
+}
 
 .btn:hover:after {
   width: 100%;

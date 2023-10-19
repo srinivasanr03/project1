@@ -6,16 +6,16 @@
 }
 
 .ournumbers-container {
-  display: flex;
+  display: grid;
   flex-direction: column;
   gap: 2rem;
 }
 
 .ournumbers-container h2 {
   display: flex;
-  font-size: 54px;
-  font-weight: 400;
   align-items: center;
+  font-size: 50px;
+  font-weight: 300;
 }
 
 .ournumbers-container h2 strong {
@@ -37,9 +37,9 @@
 .active-users-box {
   border-radius: 30px 0 0 30px;
   border-right: none;
-  width: 26.66%;
-  height: 222px;
-  color: #d77b35;
+  width: 20%;
+  height: 150px;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,18 +49,18 @@
 
 .numbers-container h3 {
   font-weight: 600;
-  font-size: 50px;
-  margin-top: 56px;
-  margin-bottom: 24px;
+  font-size: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   position: relative;
 }
 
 .active-users-box h3::before {
   content: "";
-  background: #fef7e2;
+
   position: absolute;
   width: 122px;
-  height: 122px;
+  height: 200px;
   bottom: -12px;
   left: -18px;
   z-index: -1;
@@ -75,8 +75,8 @@
 .opportunity-box {
   border-right: none;
   width: 26.66%;
-  height: 222px;
-  color: #c85b50;
+  height: 22px;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -100,8 +100,8 @@
   border-radius: 0 30px 0 0;
   border-right: none;
   width: 26.66%;
-  height: 222px;
-  color: #1c4980;
+  height: 111px;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -111,7 +111,7 @@
 
 .organization-box h3::before {
   content: "";
-  background: #eaedf1;
+  /* background: #eaedf1; */
   position: absolute;
   width: 122px;
   height: 122px;
@@ -139,8 +139,8 @@
   border-radius: 0 0 0 30px;
   border-right: none;
   width: 26.66%;
-  height: 222px;
-  color: #6049e4;
+  height: 111px;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -150,7 +150,7 @@
 
 .assessments-box h3::before {
   content: "";
-  background: #eae8fb;
+  /* background: #eae8fb; */
   position: absolute;
   width: 122px;
   height: 122px;
@@ -162,9 +162,9 @@
 
 .brands-box {
   border-right: none;
-  width: 26.66%;
-  height: 222px;
-  color: #4aa46d;
+  width: 20%;
+  height: 200px;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -174,7 +174,7 @@
 
 .brands-box h3::before {
   content: "";
-  background: #ebfef5;
+  /* background: #ebfef5; */
   position: absolute;
   width: 122px;
   height: 122px;
@@ -187,9 +187,9 @@
 .countries-box {
   border-radius: 0 30px 30px 0;
   border-right: none;
-  width: 26.66%;
-  height: 222px;
-  color: #3171de;
+  width: 20%;
+  height: 200px;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -199,7 +199,7 @@
 
 .countries-box h3::before {
   content: "";
-  background: #d7e8fe;
+  /* background: #d7e8fe; */
   position: absolute;
   width: 122px;
   height: 122px;

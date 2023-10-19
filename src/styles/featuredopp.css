@@ -6,10 +6,15 @@
 }
 
 .featuredopp-container {
-  background: linear-gradient(180deg, #0271cb 0%, #ffffff 100%);
-  border: 1px solid #dde5ea;
-  border-radius: 30px;
-  padding: 32px 40px;
+  background: linear-gradient(to top right, #4BB3FF, #4CFCFF, #00E395);
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* border: 1px solid #dde5ea; */
+  /* border-radius: 30px; */
+  /* padding: 32px 40px; */
 }
 
 .featuredopp-content {

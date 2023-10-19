@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/footer.css";
 import { AiFillHeart, AiFillInstagram } from "react-icons/ai";
+import logo from '../assets/HireXzo_Solutions_LLP_No_BG.png'
 import { IoMailOutline } from "react-icons/io5";
 import { IoMdSend } from "react-icons/io";
 import { MdLocalPhone } from "react-icons/md";
@@ -17,79 +18,61 @@ import {
 const Footer = () => {
   const solutions = [
     {
-      name: "brand",
-      link: "https://unstop.com/employers/brand",
+      name: "About us",
+      // link: "https://unstop.com/employers/brand",
     },
     {
-      name: "source",
-      link: "https://unstop.com/employers/source",
+      name: "Privacy policy",
+      // link: "https://unstop.com/employers/source",
     },
     {
-      name: "engage",
-      link: "https://unstop.com/employers/engage",
+      name: "Terms & conditions",
+      // link: "https://unstop.com/employers/engage",
     },
-    {
-      name: "assess",
-      link: "https://unstop.com/employers/assess",
-    },
-    {
-      name: "hire",
-      link: "https://unstop.com/employers/hire",
-    },
+    
   ];
 
-  const products = [
-    {
-      name: "technology platform",
-      link: "https://unstop.com/virtual-event-platform",
-    },
-    {
-      name: "online recruitment platform",
-      link: "https://unstop.com/recruitment-automation",
-    },
-    {
-      name: "quizzing / assessments",
-      link: "https://unstop.com/online-assessment-platform",
-    },
-    {
-      name: "online hackathons / coding",
-      link: "https://unstop.com/organize-hackathon-virtual-coding-platform-and-assessment-tests",
-    },
-    {
-      name: "business simulation games",
-      link: "https://unstop.com/business-simulation-games/business-strategy",
-    },
-  ];
+  // const products = [
+  //   {
+  //     name: "technology platform",
+  //     link: "https://unstop.com/virtual-event-platform",
+  //   },
+  //   {
+  //     name: "online recruitment platform",
+  //     link: "https://unstop.com/recruitment-automation",
+  //   },
+  //   {
+  //     name: "quizzing / assessments",
+  //     link: "https://unstop.com/online-assessment-platform",
+  //   },
+  //   {
+  //     name: "online hackathons / coding",
+  //     link: "https://unstop.com/organize-hackathon-virtual-coding-platform-and-assessment-tests",
+  //   },
+  //   {
+  //     name: "business simulation games",
+  //     link: "https://unstop.com/business-simulation-games/business-strategy",
+  //   },
+  // ];
 
   const participate = [
     {
       name: "competitions & challenges",
-      link: "https://unstop.com/competitions",
+      // link: "https://unstop.com/competitions",
     },
     {
       name: "quizzes",
-      link: "https://unstop.com/quizzes",
+      // link: "https://unstop.com/quizzes",
     },
     {
       name: "hackathons",
-      link: "https://unstop.com/hackathons",
+      // link: "https://unstop.com/hackathons",
     },
     {
-      name: "workshops & webinars",
-      link: "https://unstop.com/workshops",
+      name: "Events",
+      // link: "https://unstop.com/workshops",
     },
-    {
-      name: "conferences",
-      link: "https://unstop.com/conferences",
-    },
-    {
-      name: "cultural events",
-      link: "https://unstop.com/creative-cultural-events",
-    },
-    {
-      name: "college festivals",
-      link: "https://unstop.com/college-fests",
-    },
+    
   ];
 
   const apply = [
@@ -110,20 +93,17 @@ const Footer = () => {
   const learn = [
     {
       name: "courses",
-      link: "https://unstop.com/blog-articles",
+      // link: "https://unstop.com/blog-articles",
     },
     {
       name: "articles",
-      link: "https://unstop.com/blog-articles",
+      // link: "https://unstop.com/blog-articles",
     },
     {
       name: "workshops",
-      link: "https://unstop.com/workshops",
+      // link: "https://unstop.com/workshops",
     },
-    {
-      name: "technopedia",
-      link: "https://unstop.com/technopedia",
-    },
+    
   ];
 
   const practice = [
@@ -141,87 +121,87 @@ const Footer = () => {
     },
   ];
 
-  const properties = [
-    {
-      name: "Unstop Awards 2023",
-      link: "https://unstop.com/awards/2023",
-    },
-    {
-      name: "Unstop Campus Employer Branding Report 2022",
-      link: "https://unstop.com/campus-employer-branding-report-2022",
-    },
-    {
-      name: "Education Loan EMI Calculator",
-      link: "https://unstop.com/tools/education-loan-emi-calculator",
-    },
-    {
-      name: "Unstop Igniters Club",
-      link: "https://unstop.com/unstop-igniters-club",
-    },
-    {
-      name: "Online Quizzing Festival",
-      link: "https://unstop.com/online-quizzing-festival",
-    },
-    {
-      name: "Online Hackathon Festival",
-      link: "https://unstop.com/online-hackathon-festival",
-    },
-  ];
+  // const properties = [
+  //   {
+  //     name: "Unstop Awards 2023",
+  //     link: "https://unstop.com/awards/2023",
+  //   },
+  //   {
+  //     name: "Unstop Campus Employer Branding Report 2022",
+  //     link: "https://unstop.com/campus-employer-branding-report-2022",
+  //   },
+  //   {
+  //     name: "Education Loan EMI Calculator",
+  //     link: "https://unstop.com/tools/education-loan-emi-calculator",
+  //   },
+  //   {
+  //     name: "Unstop Igniters Club",
+  //     link: "https://unstop.com/unstop-igniters-club",
+  //   },
+  //   {
+  //     name: "Online Quizzing Festival",
+  //     link: "https://unstop.com/online-quizzing-festival",
+  //   },
+  //   {
+  //     name: "Online Hackathon Festival",
+  //     link: "https://unstop.com/online-hackathon-festival",
+  //   },
+  // ];
 
   return (
     <footer>
       <div className="footer">
         <div className="footer-top">
           <div className="footer-top-left">
-            <div className="footer-logo">
+            {/* <div className="footer-logo">
               <img
-                src="	https://d8it4huxumps7.cloudfront.net/uploads/images/63ee0282cefc5_unstop_logo.svg"
-                alt="logo"
+                src={logo} alt="logo"
               />
-            </div>
-            <p className="dash">
+            </div> */}
+            {/* <p className="dash">
               Built with{" "}
               <span className="heart-icon">
                 <AiFillHeart />
               </span>{" "}
               in India for the world
-            </p>
+            </p> */}
             <h3>Stay Connected</h3>
             <div className="footer-contact-links">
               <a
-                href="mailto:sales@unstop.com"
+                href="mailto:sales@HireXzo.com"
                 className="mail"
                 target="_blank"
                 rel="noreferrer"
               >
                 <IoMailOutline />
-                sales@unstop.com
+                sales@HireXzo.com
               </a>
               <a
-                href="tel:9311777388"
+                href="tel:6302097651"
                 className="mail"
               >
                 <MdLocalPhone />
-                +91-9311777388 <span> (Mon to Fri, 9 AM to 6 PM)</span>
+                +91-6302097651 <span> (Mon to Fri, 9 AM to 6 PM)</span>
               </a>
             </div>
             <div className="footer-social-links dash">
+              
               <a
-                href="https://www.instagram.com/unstop.world/"
+                href="https://www.instagram.com/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <AiFillInstagram />
               </a>
               <a
-                href="https://www.linkedin.com/company/unstop"
+                href="https://www.linkedin.com/company/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaLinkedinIn />
               </a>
               <a
-                href="https://www.facebook.com/Unstop.world"
+                href="https://www.facebook.com/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -235,33 +215,33 @@ const Footer = () => {
                 <FaTelegramPlane />
               </a>
               <a
-                href="https://discord.com/invite/DvYWXNr4yR"
+                href="https://discord.com/invite/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaDiscord />
               </a>
               <a
-                href="https://twitter.com/Unstop_World"
+                href="https://twitter.com/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaTwitter />
               </a>
               <a
-                href="https://www.youtube.com/c/Unstop_World"
+                href="https://www.youtube.com/c/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaYoutube />
               </a>
             </div>
-            <h3>Stay Updated</h3>
-            <p className="updated">
+            {/* <h3>Stay Updated</h3> */}
+            {/* <p className="updated">
               We'll send you updates on the latest opportunities to showcase
               your talent and get hired and rewarded regularly.
-            </p>
-            <div className="newsletter">
+            </p> */}
+            {/* <div className="newsletter">
               <a
                 href="https://unstop.com/about/newsletter"
                 target="_blank"
@@ -312,20 +292,18 @@ const Footer = () => {
                   alt="app store"
                 />
               </a>
-            </div>
-            <p className="dash best-viewed">
-              Best Viewed in Latest Versions of Edge, Mozilla, Chrome, Opera &
-              Safari. V: 2.20.2023.18.53
-            </p>
+            </div> */}
+              
+            {/* <p className="dash best-viewed"></p> */}
             <p className="copyright">
-              Copyright © 2023 FLIVE Consulting Pvt Ltd - All rights reserved.
+              Copyright © 2023 HireXzo Solutions Ltd - All rights reserved.
             </p>
           </div>
           <div className="footer-top-right">
             <div className="footer-right-top">
               <div className="footer-solution-product">
                 <div className="footer-solutions">
-                  <h4>Our solutions</h4>
+                  <h4>Company</h4>
                   <div className="footer-solutions-links links-cont">
                     {solutions.map((ele) => {
                       return (
@@ -341,7 +319,7 @@ const Footer = () => {
                     })}
                   </div>
                 </div>
-                <div className="footer-products">
+                {/* <div className="footer-products">
                   <h4>Our products</h4>
                   <div className="footer-products-links links-cont">
                     {products.map((ele) => {
@@ -357,9 +335,9 @@ const Footer = () => {
                       );
                     })}
                   </div>
-                </div>
+                </div> */}
               </div>
-              <div className="footer-participate-apply">
+              {/* <div className="footer-participate-apply"> */}
                 <div className="footer-participate">
                   <h4>participate</h4>
                   <div className="footer-participate-links links-cont">
@@ -394,8 +372,8 @@ const Footer = () => {
                     })}
                   </div>
                 </div>
-              </div>
-              <div className="footer-learn-practice">
+              {/* </div> */}
+              {/* <div className="footer-learn-practice"> */}
                 <div className="footer-learn">
                   <h4>learn</h4>
                   <div className="footer-learn-links links-cont">
@@ -430,10 +408,10 @@ const Footer = () => {
                     })}
                   </div>
                 </div>
-              </div>
+              {/* </div> */}
             </div>
             <div className="footer-right-bottom">
-              <div className="footer-properties">
+              {/* <div className="footer-properties">
                 <div className="footer-products">
                   <h4>our properties</h4>
                   <div className="footer-products-links links-cont">
@@ -451,8 +429,8 @@ const Footer = () => {
                     })}
                   </div>
                 </div>
-              </div>
-              <div className="footer-other-links">
+              </div> */}
+              {/* <div className="footer-other-links">
                 <div className="same-row-links">
                   <a
                     href="https://unstop.com/about"
@@ -533,11 +511,15 @@ const Footer = () => {
                 <a href="https://unstop.com/directory/competitions/a/1">
                   Sitemap
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
+    
         </div>
-        <div className="footer-bottom container">
+        <div className="company-name">
+          <h1>HireXzo</h1>
+        </div>
+        {/* <div className="footer-bottom container">
           <div className="footer-bottom-left">
             <img
               src="https://d8it4huxumps7.cloudfront.net/uploads/images/d2c-icons/d2c-payments-icon.svg"
@@ -562,7 +544,7 @@ const Footer = () => {
               alt="iso certified"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
